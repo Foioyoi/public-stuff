@@ -1,0 +1,49 @@
+    "vscodeGitCommit.variablesDisplayTitles": {
+        "scope": "The scope provides additional contextual information",
+        "subject": "The subject contains a succinct description of the change",
+        "body": "The body should include the motivation for the change and contrast this with previous behavior",
+        "footer": "The footer should contain any information about Breaking Changes and is also the place to reference Issues that this commit refers to"
+    },
+    // "vscodeGitCommit.defaultVariablesValues": {
+    //     "scope": "The scope provides additional contextual information",
+    //     "subject": "The subject contains a succinct description of the change",
+    //     "body": "Detailed informations. https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13#types",
+    //     "footer": "The footer should contain any information about Breaking Changes and is also the place to reference Issues that this commit refers to"
+    // },
+    "vscodeGitCommit.template": [
+        "{type} ({scope}): {subject}",
+        "",
+        "{body}",
+        "",
+        "{footer}"
+    ],
+    "vscodeGitCommit.variables": {
+        
+        "prefix": "keke",
+        "type": [
+            {
+                "label": "🦝 init",
+                "detail": "Select when initial commit"
+            },
+            {
+                "label": "🐞 fix",
+                "detail": "Commits, that fixes a bug"
+            },
+            {
+                "label": "✨ feat",
+                "detail": "Commits, that adds a new feature"
+            },
+            {
+                "label": "🚅 perf",
+                "detail": "Select when working on performances"
+            },
+            {
+                "label": "📄 docs",
+                "detail": "Commits, that affect documentation only"
+            },
+            {
+                "label": "🔵 chore",
+                "detail": "Miscellaneous commits e.g. modifying .gitignore"
+            }
+        ]
+    },
